@@ -1,0 +1,7 @@
+{
+  "name": "kurumi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
