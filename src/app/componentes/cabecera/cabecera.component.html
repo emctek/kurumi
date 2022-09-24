@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/inicio">
+          <img slot="end"
+            src="https://app.schoology.com/sites/all/themes/schoology_theme/images_front/header-logo-transparent.png"
+            alt="Logo" width="175" height="31" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a (click)="cursos()" class="nav-link active" aria-current="page">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a (click)="grupos()" class="nav-link active">Grupos</a>
+            </li>
+            <li class="nav-item">
+              <a (click)="recursos()" class="nav-link active">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a (click)="calificaciones()" class="nav-link active">Calificaciones</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success " type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </ion-toolbar>
+</ion-header>
