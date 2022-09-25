@@ -6,6 +6,8 @@ import { IonicModule } from '@ionic/angular';
 import { LoginComponent } from './login/login.component';
 import { RecuperacComponent } from './recuperac/recuperac.component';
 import { IniciounicocComponent } from './iniciounicoc/iniciounicoc.component';
+import { CursosComponent } from './cursos/cursos.component';
+import { ActividadComponent } from './actividad/actividad.component';
 
 
 
@@ -16,14 +18,18 @@ import { IniciounicocComponent } from './iniciounicoc/iniciounicoc.component';
     PieComponent,
     LoginComponent,
     RecuperacComponent,
-    IniciounicocComponent
+    IniciounicocComponent,
+    CursosComponent,
+    ActividadComponent
   ],
   exports: [
     CabeceraComponent,
     PieComponent,
     LoginComponent,
     RecuperacComponent,
-    IniciounicocComponent
+    IniciounicocComponent,
+    CursosComponent,
+    ActividadComponent
   ],
   imports: [
     CommonModule,

@@ -4,11 +4,21 @@ import { CabeceraComponent } from 'src/app/componentes/cabecera/cabecera.compone
 import { PieComponent } from 'src/app/componentes/pie/pie.component';
 
 import { InicioPage } from './inicio.page';
+import { CursosComponent } from '../../componentes/cursos/cursos.component';
+import { ActividadComponent } from '../../componentes/actividad/actividad.component';
 
 const routes: Routes = [
   {
     path: '',
     component: InicioPage
+  },
+  {
+    path: 'cursocard',
+    component: CursosComponent
+  },
+  {
+    path: 'actividadcard',
+    component: ActividadComponent
   }
 ];
 
