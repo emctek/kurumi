@@ -8,6 +8,8 @@ import { RecuperacComponent } from './recuperac/recuperac.component';
 import { IniciounicocComponent } from './iniciounicoc/iniciounicoc.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { ActividadComponent } from './actividad/actividad.component';
+import { ActividadpriximaComponent } from './actividadprixima/actividadprixima.component';
+import { CalendariocComponent } from './calendarioc/calendarioc.component';
 
 
 
@@ -20,7 +22,9 @@ import { ActividadComponent } from './actividad/actividad.component';
     RecuperacComponent,
     IniciounicocComponent,
     CursosComponent,
-    ActividadComponent
+    ActividadComponent,
+    ActividadpriximaComponent,
+    CalendariocComponent
   ],
   exports: [
     CabeceraComponent,
@@ -29,7 +33,9 @@ import { ActividadComponent } from './actividad/actividad.component';
     RecuperacComponent,
     IniciounicocComponent,
     CursosComponent,
-    ActividadComponent
+    ActividadComponent,
+    ActividadpriximaComponent,
+    CalendariocComponent
   ],
   imports: [
     CommonModule,

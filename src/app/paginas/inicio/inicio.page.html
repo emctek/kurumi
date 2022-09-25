@@ -1,9 +1,9 @@
 <app-cabecera></app-cabecera>
 <ion-content>
-  <div class="container pt-3 mt-3">
-    <div class="container pt-3 mt-3">
-      <div class="row justify-content-md-center">
-        <div class="col">
+  <div class="container pt-1 mt-1">
+    <div class="container pt-1 mt-1">
+      <div class="row ">
+        <div class="col-8">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active text-secondary" id="home-tab" data-bs-toggle="tab"
@@ -17,12 +17,22 @@
                 RECIENTE</button>
             </li>
           </ul>
-          <div class="tab-content" id="myTabContent">
+          <div class="tab-content" id="myTab">
             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
               tabindex="0">
               <p></p>
-              <div class="container text-center">
-                <div class="row">
+              <div class="container ">
+                <div class="row ">
+                  <div class="col">
+                    <app-cursos></app-cursos>
+                  </div>
+                  <div class="col">
+                    <app-cursos></app-cursos>
+                  </div>
+                  <div class="col">
+                    <app-cursos></app-cursos>
+                  </div>
+                  <p></p>
                   <div class="col">
                     <app-cursos></app-cursos>
                   </div>
@@ -34,9 +44,8 @@
                   </div>
                 </div>
               </div>
-              <p></p>
             </div>
-            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="tab-pane fade" id="profile-tab" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
               <div class="container text-center">
                 <div class="row">
                   <div class="col">
@@ -68,16 +77,23 @@
           </div>
         </div>
         <div class="col">
-          <div class="row pt-3 mt-3">
-            <div class="col">
+          <div class="row pt-3 mt-3 ">
+            <div class="col ">
               <p>Recordatorios</p>
-              <hr style="color: #0056b2;"/>
+              <div style="border-top:1px solid gray;"></div>
+              <p></p>
+              <p>No current reminders</p>
             </div>
           </div>
           <div class="row pt-3 mt-3">
             <div class="col">
-              <p>Actividades Proximas</p>
-              <hr>
+              <p>Actividades Proximas <a (click)="calendariov()" class="text-primary">Calendario</a></p>
+
+              <div style="border-top:1px solid gray;"></div>
+              <p></p>
+              <p>
+                <app-actividadprixima></app-actividadprixima>
+              </p>
             </div>
           </div>
         </div>

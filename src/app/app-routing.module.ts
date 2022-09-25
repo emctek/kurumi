@@ -40,6 +40,10 @@ const routes: Routes = [
     path: 'iniciounico',
     loadChildren: () => import('./paginas/iniciounico/iniciounico.module').then( m => m.IniciounicoPageModule)
   },
+  {
+    path: 'calendario',
+    loadChildren: () => import('./paginas/calendario/calendario.module').then( m => m.CalendarioPageModule)
+  },
 ];
 
 @NgModule({

@@ -20,6 +20,11 @@ const routes: Routes = [
     path: 'actividadcard',
     component: ActividadComponent
   }
+  ,
+  {
+    path: 'actividadproxima',
+    component: ActividadComponent
+  }
 ];
 
 @NgModule({

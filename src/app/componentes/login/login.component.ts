@@ -11,7 +11,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private route: Router) {}
 
-  iniciar() {
+  entrada() {
     this.route.navigate(['/inicio']);
   }
 
